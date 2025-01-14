@@ -7,7 +7,7 @@ OUTPUT_FILE="output.txt"
 
 # Clear the output file before appending
 > "$OUTPUT_FILE"
-
+#Brute force all shift values
 # Loop through integers 0 to 25
 for i in {0..25}; do
     # Run the C executable with the arguments
